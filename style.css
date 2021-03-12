@@ -1,0 +1,13 @@
+p {
+	font-size: 50px;
+}
+
+button {
+	width: auto;
+	font-size: 15px;
+	padding: 3px 5px;
+}
+
+#searching-area {
+	border-style: solid;
+}
