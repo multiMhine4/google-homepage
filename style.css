@@ -68,6 +68,11 @@ footer div {
 	padding: 10px 15px;
 }
 
+#top-row {
+	border-style: none;
+	padding-left: 20px;
+}
+
 #bottom-row {
 	display: flex;
 	justify-content: space-between;
