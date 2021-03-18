@@ -1,15 +1,4 @@
-button {
-	width: auto;
-	font-size: 15px;
-	padding: 3px 5px;
-	border: none;
-}
-
-input {
-	display: block;
-	margin: auto;
-	width: 400px;
-}
+/* Navbar selectors */
 
 navbar {
 	display: flex;
@@ -19,6 +8,9 @@ navbar {
 .nav-links {
 	margin: 10px 10px;
 }
+
+
+/* Search-area selectors */
 
 #searching-area {
 	border-style: none;
@@ -39,6 +31,22 @@ navbar {
 	border-style: none;
 	margin: 20px auto;
 }
+
+button {
+	width: auto;
+	font-size: 15px;
+	padding: 3px 5px;
+	border: none;
+}
+
+input {
+	display: block;
+	margin: auto;
+	width: 400px;
+}
+
+
+/* Footer selectors */
 
 footer {
 	border-style: none;
@@ -65,16 +73,26 @@ footer div {
 	flex-wrap: wrap;
 }
 
+#left-buttons {
+	border-style: solid;
+	padding: 0;
+}
+
+#left-buttons a {
+	padding: 0 20px;
+}
+
+#right-buttons {
+	border-style: solid;
+	padding: 0;
+}
+
+#right-buttons a {
+	padding: 0 20px;
+}
+
 @media (max-width: 1100px) {
 	#bottom-row {
 		justify-content: space-evenly;
 	}
-}
-
-#left-buttons {
-	padding: 0;
-}
-
-#right-buttons {
-	padding: 0;
 }
