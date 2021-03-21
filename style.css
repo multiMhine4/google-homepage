@@ -29,8 +29,17 @@ navbar {
 }
 
 #search-bar {
-	border-style: none;
+	border: 1px solid #e5e6e8;
+	border-radius: 100px;
+	padding: 13px 45px;
 	margin: 20px auto;
+}
+
+#search-bar input {
+	border-style: none;
+	display: block;
+	margin: auto;
+	width: 450px;
 }
 
 #searching-area button {
@@ -38,12 +47,6 @@ navbar {
 	font-size: 15px;
 	padding: 3px 5px;
 	border: none;
-}
-
-#searching-area input {
-	display: block;
-	margin: auto;
-	width: 400px;
 }
 
 
@@ -69,7 +72,7 @@ footer div {
 }
 
 #top-row {
-	padding-left: 20px;
+	border-bottom: 2px solid #e5e6e8;
 }
 
 #hongkong {
