@@ -3,10 +3,19 @@
 navbar {
 	display: flex;
 	justify-content: end;
+	align-items: center;
 }
 
 .nav-links {
 	margin: 10px 10px;
+}
+
+#apps-button {
+	width: 20px;
+}
+
+#profile-button {
+	width: 35px;
 }
 
 
@@ -50,9 +59,9 @@ navbar {
 }
 
 #searching-area button {
-	width: auto;
 	font-size: 15px;
-	padding: 3px 5px;
+	padding: 10px 17px;
+	background-color: #f8f9fa;
 	border: none;
 }
 
