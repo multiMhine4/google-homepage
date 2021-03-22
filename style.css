@@ -15,6 +15,8 @@ navbar {
 
 .nav-links {
 	margin: 10px 10px;
+	text-decoration: none;
+	color: black;
 }
 
 #apps-button {
@@ -68,8 +70,13 @@ navbar {
 #searching-area button {
 	font-size: 15px;
 	padding: 10px 17px;
+	margin: 0 5px;
 	background-color: #f8f9fa;
 	border: none;
+}
+
+#language-button {
+	text-decoration: none;
 }
 
 
@@ -92,6 +99,11 @@ footer {
 footer div {
 	/* border-bottom: 2px solid gray; */
 	padding: 10px 15px;
+}
+
+footer * {
+	text-decoration: none;
+	color: #6f6f6f;
 }
 
 #top-row {
