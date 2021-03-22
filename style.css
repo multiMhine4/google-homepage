@@ -1,3 +1,10 @@
+/* General selectors */
+*:not(input) {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+
 /* Navbar selectors */
 
 navbar {
